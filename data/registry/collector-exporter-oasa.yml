@@ -1,0 +1,30 @@
+# cSpell:ignore oasaexporter oasa onaro NDJSON
+title: OASA Exporter
+registryType: exporter
+language: collector
+tags:
+  - oasa
+  - genai
+  - finops
+  - exporter
+  - collector
+urls:
+  repo: https://github.com/onaro-io/oasa-otel-exporter
+  docs: https://github.com/onaro-io/oasa-otel-exporter#readme
+license: Apache 2.0
+description:
+  This exporter turns spans that carry GenAI semantic convention attributes
+  (`gen_ai.*`) into [Open Agent Spend Attribution
+  (OASA)](https://www.onaro.io/spec) usage records, with deterministic record
+  IDs, and writes them to a rotating NDJSON file or POSTs them in batches to an
+  HTTP endpoint.
+authors:
+  - name: Onaro
+    email: hello@onaro.io
+    url: https://github.com/onaro-io
+createdAt: 2026-10-08
+package:
+  registry: go-collector
+  name: github.com/onaro-io/oasa-otel-exporter
+  version: v0.1.0
+isFirstParty: false
