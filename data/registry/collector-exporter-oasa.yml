@@ -27,4 +27,5 @@ package:
   registry: go-collector
   name: github.com/onaro-io/oasa-otel-exporter
   version: v0.1.0
+isNative: false
 isFirstParty: false
